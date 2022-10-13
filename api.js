@@ -20,7 +20,7 @@ api.get("/wrongs", async (req, res) => {
     res.send(data.rows);
 })
 
-api.get("/person/:id", async (req, res) => {
+api.get("/people/:id", async (req, res) => {
     const id = parseInt(req.params.id);
 
     // Insert parameters securely
