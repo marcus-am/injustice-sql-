@@ -7,4 +7,7 @@ var sql = fs.readFileSync('setup.sql').toString();
 // Get a link to the database
 const db = require("./db");
 
-db.query(sql);
+// Run the query
+db.query(sql)
+    .then(data => console.log("Set-up complete."))
+    .catch(error => console.log(error));

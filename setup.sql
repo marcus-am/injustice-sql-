@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS wrong;
 DROP TABLE IF EXISTS person;
 
 CREATE TABLE person (
@@ -6,7 +7,8 @@ CREATE TABLE person (
     PRIMARY KEY (person_id)
 );
 
-DROP TABLE IF EXISTS wrong;
+INSERT INTO person (person_name)
+VALUES ('Peter'), ('Susan'), ('Edmund'), ('Lucy');
 
 CREATE TABLE wrong (
     wrong_id INT GENERATED ALWAYS AS IDENTITY,
@@ -20,3 +22,8 @@ CREATE TABLE wrong (
     FOREIGN KEY (perpetrator_id) REFERENCES person(person_id),
     FOREIGN KEY (victim_id) REFERENCES person(person_id)
 );
+
+INSERT INTO wrong
+    (perpetrator_id, victim_id, description)
+VALUES
+    (3, 2, 'Ate his pet chicken.');
