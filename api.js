@@ -24,9 +24,9 @@ api.get("/people/:id", async (req, res) => {
     const id = parseInt(req.params.id);
 
     // Insert parameters securely
-    const data = await db.query("SELECT person_name FROM person WHERE person_id = $1", [id]);
+    const data = await db.query("SELECT * FROM person WHERE person_id = $1", [id]);
 
-    res.send(data.rows);
+    res.send(data.rows[0]);
 })
 
 module.exports = api;
