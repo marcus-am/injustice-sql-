@@ -1,6 +1,6 @@
 # Interacting with databases
 
-This repository contains resources (including exemplars, instructions, and starter code) for the **%MODULE-NAME%** module.
+This repository contains resources (including exemplars, instructions, and starter code) for the **Interacting with databases** module.
 
 ## Set-up
 
