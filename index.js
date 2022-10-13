@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config(); // Load environment variables
 
 const api = require("./api");
 const db = require("./db");
