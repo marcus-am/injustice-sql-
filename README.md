@@ -1,4 +1,4 @@
-# %MODULE-NAME%
+# Interacting with databases
 
 This repository contains resources (including exemplars, instructions, and starter code) for the **%MODULE-NAME%** module.
 
