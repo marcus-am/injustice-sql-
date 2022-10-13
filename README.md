@@ -14,4 +14,5 @@ To access a resource, switch to the relevant branch and read [`instructions.md`]
 
 | Resource | Branch |
 | --- | --- |
-| resource_name | `branch_name` |
+| Wrongs (example) | `wrongs-example` |
+| Wrongs (extension) | `wrongs-extension` |
