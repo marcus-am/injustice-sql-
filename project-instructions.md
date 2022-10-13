@@ -38,6 +38,6 @@ Run `npm run setup-db` to create all necessary database tables.
 
 ---
 
-[Back](./README.md)
+[Back](./instructions.md)
 
 ---
