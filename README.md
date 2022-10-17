@@ -16,3 +16,5 @@ To access a resource, switch to the relevant branch and read [`instructions.md`]
 | --- | --- |
 | Wrongs (example) | `wrongs-example` |
 | Wrongs (extension) | `wrongs-extension` |
+| SQL resources | `sql-resources` |
+| Masquerade | `masquerade` |
