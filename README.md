@@ -4,7 +4,7 @@ This repository contains resources (including exemplars, instructions, and start
 
 ## Set-up
 
-Begin by **forking** this repository and **cloning** it onto your machine.
+Begin by **cloning** this repository onto your machine.
 
 ## Resources
 
