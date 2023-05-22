@@ -4,7 +4,7 @@ This repository contains resources (including exemplars, instructions, and start
 
 ## Set-up
 
-Begin by **cloning** this repository onto your machine.
+Begin by **forking** this repository and **cloning** it onto your machine.
 
 ## Resources
 
@@ -16,3 +16,5 @@ To access a resource, switch to the relevant branch and read [`instructions.md`]
 | --- | --- |
 | Wrongs (example) | `wrongs-example` |
 | Wrongs (extension) | `wrongs-extension` |
+| SQL resources | `sql-resources` |
+| Masquerade | `masquerade` |
